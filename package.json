@@ -4,17 +4,19 @@
   "private": false,
   "homepage": "https://mattborghi.github.io/",
   "dependencies": {
-    "@material-ui/core": "^4.10.0",
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@testing-library/jest-dom": "^5.11.2",
+    "@testing-library/react": "^10.4.8",
+    "@testing-library/user-event": "^12.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
