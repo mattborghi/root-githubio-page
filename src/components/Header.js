@@ -32,17 +32,25 @@ export default function Header(props) {
               </a>
             </li>
             <li>
-              <a href="#projects" alt="projects" onClick={() => setAlert(alert => !alert)}>
+              <a
+                href="#projects"
+                alt="projects"
+                onClick={() => setAlert((alert) => !alert)}
+              >
                 Projects
               </a>
             </li>
             <li>
-              <a href="#french" alt="french" onClick={() => setAlert(alert => !alert)}>
+              <a
+                href="#french"
+                alt="french"
+                onClick={() => setAlert((alert) => !alert)}
+              >
                 French
               </a>
             </li>
             <li>
-              <a href="https://mattborghi.github.io/violin" alt="violin" onClick={() => setAlert(alert => !alert)}>
+              <a href="https://mattborghi.github.io/violin" alt="violin">
                 Violin
               </a>
             </li>
@@ -80,7 +88,7 @@ export default function Header(props) {
       <Snackbar
         anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
         open={alert}
-        onClose={() => setAlert(alert => !alert)}
+        onClose={() => setAlert((alert) => !alert)}
         message="Page not yet implemented!"
         key="snackbar"
         autoHideDuration={5000}
