@@ -42,7 +42,7 @@ export default function Header(props) {
               </a>
             </li>
             <li>
-              <a href="https://mattborghi.github.io/blog/violin" alt="violin" onClick={() => setAlert(alert => !alert)}>
+              <a href="https://mattborghi.github.io/violin" alt="violin" onClick={() => setAlert(alert => !alert)}>
                 Violin
               </a>
             </li>
