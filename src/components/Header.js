@@ -42,9 +42,8 @@ export default function Header(props) {
             </li>
             <li>
               <a
-                href="#french"
-                alt="french"
-                onClick={() => setAlert((alert) => !alert)}
+                href="https://mattborghi.github.io/francais"
+                alt="The French Blog"
               >
                 French
               </a>
