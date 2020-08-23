@@ -27,7 +27,7 @@ export default function Header(props) {
               </a>
             </li>
             <li>
-              <a href="https://mattborghi.github.io/blog" alt="blog">
+              <a href="https://mattborghi.github.io/myblog" alt="myblog">
                 Blog
               </a>
             </li>
