@@ -33,9 +33,9 @@ export default function Header(props) {
             </li>
             <li>
               <a
-                href="#projects"
+                href="https://mattborghi.github.io/projects"
                 alt="projects"
-                onClick={() => setAlert((alert) => !alert)}
+                // onClick={() => setAlert((alert) => !alert)}
               >
                 Projects
               </a>
