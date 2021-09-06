@@ -19,4 +19,37 @@ let Data = {
   ],
 };
 
+export const buttons = [
+  {
+    name: "Home",
+    path: "#home",
+    alt: "home"
+  },
+  {
+    name: "CV",
+    path: "https://mattborghi.github.io/CV",
+    alt: "Curriculum Vitae"
+  },
+  {
+    name: "Blog",
+    path: "https://mattborghi.github.io/myblog",
+    alt: "My Personal Blog"
+  },
+  {
+    name: "Projects",
+    path: "https://mattborghi.github.io/projects",
+    alt: "Projects"
+  },
+  {
+    name: "Francais",
+    path: "https://mattborghi.github.io/francais",
+    alt: "My French Blog"
+  },
+  {
+    name: "Violin",
+    path: "https://mattborghi.github.io/violin",
+    alt: "My Violin Blog"
+  },
+]
+
 export default Data;

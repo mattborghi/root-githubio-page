@@ -1,60 +1,15 @@
 import React, { useState } from "react";
+import NavigationBar from "./NavigationBar";
 import Snackbar from "@material-ui/core/Snackbar";
 
-export default function Header(props) {
+export default function Header({ resumeData, buttons }) {
   const [alert, setAlert] = useState(false);
-  const { resumeData } = props;
 
   return (
     <React.Fragment>
       <header id="home">
-        <nav id="nav-wrap">
-          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-            Show navigation
-          </a>
-          {/* eslint-disable-next-line  */}
-          <a className="mobile-btn" href="#" title="Hide navigation">
-            Hide navigation
-          </a>
-          <ul id="nav" className="nav">
-            <li className="current">
-              <a href="#home" alt="home">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="https://mattborghi.github.io/CV" alt="cv">
-                CV
-              </a>
-            </li>
-            <li>
-              <a href="https://mattborghi.github.io/myblog" alt="myblog">
-                Blog
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://mattborghi.github.io/projects"
-                alt="projects"
-              >
-                Projects
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://mattborghi.github.io/francais"
-                alt="The French Blog"
-              >
-                French
-              </a>
-            </li>
-            <li>
-              <a href="https://mattborghi.github.io/violin" alt="violin">
-                Violin
-              </a>
-            </li>
-          </ul>
-        </nav>
+
+        <NavigationBar buttons={buttons} />
 
         <div className="row banner">
           <div className="banner-text">
