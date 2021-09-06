@@ -1,3 +1,11 @@
+# My Root Github Page
+
+| **Deployment** |
+|:------------ |
+| [![Stable](https://img.shields.io/badge/Deploy-Github%20Actions-blue?style=for-the-badge&logo=githubactions)](https://mattborghi.github.io/) |
+|**Build Status** |
+| [![Build and Test React Application](https://img.shields.io/github/workflow/status/mattborghi/root-githubio-page/Build%20and%20Test%20React%20Application?style=for-the-badge&logo=testinglibrary)](https://github.com/mattborghi/root-githubio-page/actions/workflows/react_testing.yml) |
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
