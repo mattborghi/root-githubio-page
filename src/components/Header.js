@@ -12,6 +12,7 @@ export default function Header(props) {
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
           </a>
+          {/* eslint-disable-next-line  */}
           <a className="mobile-btn" href="#" title="Hide navigation">
             Hide navigation
           </a>
@@ -35,7 +36,6 @@ export default function Header(props) {
               <a
                 href="https://mattborghi.github.io/projects"
                 alt="projects"
-                // onClick={() => setAlert((alert) => !alert)}
               >
                 Projects
               </a>
@@ -94,5 +94,4 @@ export default function Header(props) {
       />
     </React.Fragment>
   );
-  // }
 }
