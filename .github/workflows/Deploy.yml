@@ -12,9 +12,11 @@ jobs:
         with:
           node-version: '14.x'
       - name: Install and Build 🔧
-        run: npm install
+        run: |
+          npm install
       - name: Deploy with gh-pages 🚀 # https://github.com/tschaub/gh-pages/pull/368
         run: |
+          npm install -g gh-pages --save-dev
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           npm run build
           gh-pages -d build -b master -r https://git:${GITHUB_TOKEN}@github.com/mattborghi/mattborghi.github.io
