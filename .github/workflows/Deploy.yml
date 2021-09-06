@@ -16,6 +16,7 @@ jobs:
       - name: Deploy with gh-pages 🚀 # https://github.com/tschaub/gh-pages/pull/368
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
+          npm run build
+          gh-pages -d build -b master -r https://git:${GITHUB_TOKEN}@github.com/mattborghi/mattborghi.github.io"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
