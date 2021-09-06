@@ -17,6 +17,6 @@ jobs:
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           npm run build
-          gh-pages -d build -b master -r https://git:${GITHUB_TOKEN}@github.com/mattborghi/mattborghi.github.io"
+          gh-pages -d build -b master -r https://git:${GITHUB_TOKEN}@github.com/mattborghi/mattborghi.github.io
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
