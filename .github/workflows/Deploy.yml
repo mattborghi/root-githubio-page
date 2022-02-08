@@ -18,6 +18,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
           npm install
+          npm run build
       - name: Deploy with gh-pages 🚀 # https://github.com/tschaub/gh-pages/pull/368
         uses: peaceiris/actions-gh-pages@v3
         with:
