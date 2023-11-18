@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import NavigationBar from "./NavigationBar";
-import Snackbar from "@material-ui/core/Snackbar";
+import Snackbar from "@mui/material/Snackbar";
 
 export default function Header({ resumeData, buttons }) {
   const [alert, setAlert] = useState(false);
