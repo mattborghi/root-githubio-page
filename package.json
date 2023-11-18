@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": false,
   "homepage": "https://mattborghi.github.io/",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "engineStrict": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
