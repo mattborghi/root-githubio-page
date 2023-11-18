@@ -1,10 +1,10 @@
 # My Root Github Page
 
-| **Deployment** |
-|:------------ |
-| [![Stable](https://img.shields.io/github/workflow/status/mattborghi/root-githubio-page/Deploy%20to%20Github%20Pages?style=for-the-badge&logo=githubactions)](https://mattborghi.github.io/) |
-|**Build Status** |
-| [![Build and Test React Application](https://img.shields.io/github/workflow/status/mattborghi/root-githubio-page/Build%20and%20Test%20React%20Application?style=for-the-badge&logo=testinglibrary)](https://github.com/mattborghi/root-githubio-page/actions/workflows/react_testing.yml) |
+| **Deployment**                                                                                                                                                                                                                                                                           |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Stable](https://img.shields.io/github/actions/workflow/status/mattborghi/root-githubio-page/Deploy.yml?branch=master&style=for-the-badge&logo=githubactions)](https://mattborghi.github.io/)                                                                                          |
+| **Build Status**                                                                                                                                                                                                                                                                         |
+| [![Build and Test React Application](https://img.shields.io/github/actions/workflow/status/mattborghi/root-githubio-page/react_testing.yml?branch=master&style=for-the-badge&logo=testinglibrary)](https://github.com/mattborghi/root-githubio-page/actions/workflows/react_testing.yml) |
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
