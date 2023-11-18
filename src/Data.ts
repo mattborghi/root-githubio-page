@@ -1,4 +1,17 @@
-let Data = {
+type SocialLinksType = {
+  name: string;
+  url: string;
+  className: string;
+}[];
+export type DataType = {
+  imagebaseurl: string;
+  name: string;
+  role: string;
+  roleDescription: string;
+  socialLinks: SocialLinksType;
+};
+
+export const Data: DataType = {
   imagebaseurl: "https://mattborghi.github.io/",
   name: "Matias Borghi",
   role: "Physicist currently working as a Software Developer",
@@ -19,41 +32,41 @@ let Data = {
       name: "gitlab",
       url: "https://gitlab.com/mattborghi",
       className: "fab fa-gitlab",
-    }
+    },
   ],
 };
 
-export const buttons = [
+export type ButtonType = { name: string; path: string; alt: string }[];
+
+export const buttons: ButtonType = [
   {
     name: "Home",
     path: "#home",
-    alt: "home"
+    alt: "home",
   },
   {
     name: "CV",
     path: "https://mattborghi.github.io/CV",
-    alt: "Curriculum Vitae"
+    alt: "Curriculum Vitae",
   },
   {
     name: "Blog",
     path: "https://mattborghi.github.io/myblog",
-    alt: "My Personal Blog"
+    alt: "My Personal Blog",
   },
   {
     name: "Projects",
     path: "https://mattborghi.github.io/projects",
-    alt: "Projects"
+    alt: "Projects",
   },
   {
     name: "Francais",
     path: "https://mattborghi.github.io/francais",
-    alt: "My French Blog"
+    alt: "My French Blog",
   },
   {
     name: "Violin",
     path: "https://mattborghi.github.io/violin",
-    alt: "My Violin Blog"
+    alt: "My Violin Blog",
   },
-]
-
-export default Data;
+];

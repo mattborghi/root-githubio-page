@@ -1,14 +1,19 @@
 import React, { useState } from "react";
 import NavigationBar from "./NavigationBar";
 import Snackbar from "@mui/material/Snackbar";
+import { ButtonType, DataType } from "../Data";
 
-export default function Header({ resumeData, buttons }) {
+type HeaderProps = {
+  resumeData: DataType;
+  buttons: ButtonType;
+};
+
+export default function Header({ resumeData, buttons }: HeaderProps) {
   const [alert, setAlert] = useState(false);
 
   return (
     <React.Fragment>
       <header id="home">
-
         <NavigationBar buttons={buttons} />
 
         <div className="row banner">
