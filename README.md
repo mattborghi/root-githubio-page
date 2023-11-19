@@ -6,8 +6,6 @@
 | **Build Status**                                                                                                                                                                                                                                                                         |
 | [![Build and Test React Application](https://img.shields.io/github/actions/workflow/status/mattborghi/root-githubio-page/react_testing.yml?branch=master&style=for-the-badge&logo=testinglibrary)](https://github.com/mattborghi/root-githubio-page/actions/workflows/react_testing.yml) |
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
